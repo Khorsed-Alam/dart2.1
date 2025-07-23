@@ -19,7 +19,17 @@ void main(){
    print("print after using dynamic : $test1");
    test1=true;
    print("Print after using Dynamic: $test1");
+test1=3.13;
+print("Converting a Data type using toString Function : "+test1.toString());
 
+
+// Constent: Change in Compile time
+const double Pi=3.14164525;
+print(Pi);
+
+//Final : Change in RunTime
+final DateTime currentTime=DateTime.now();
+print(currentTime);
 
 
 }
