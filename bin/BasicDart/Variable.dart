@@ -31,5 +31,12 @@ print(Pi);
 final DateTime currentTime=DateTime.now();
 print(currentTime);
 
+// print RuntimeDataType
+print(test1.runtimeType);
+print(isLogin.runtimeType);
+
+//Apply Condition
+print(MyName is int);// if Condition full feel then print true otherwise false
+
 
 }

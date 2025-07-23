@@ -9,3 +9,8 @@ A type of data type that contain all type of variable and we can change this lik
 
 
 toStrign(): tostring() function are use to convert all data type to string 
+
+dateTime(): to generate date and time with code{dateTime.now()}
+
+runtimeType(): Toprint Type of Variable when Variable is printed 
+
