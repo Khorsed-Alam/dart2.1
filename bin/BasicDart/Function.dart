@@ -29,6 +29,13 @@ main(){
   print('Area with function : ${ CalculateArea( length4,width4)}');
   print('Area with function : ${ CalculateArea( length2,width2)}');
 
+  sayhello();
+  GeetUser('Joy');
+  GeetUser('Jeny');
+
+
+  createBankAccountI('Khorsed','0112330472' , '246');
+ print("addition of two numnber : ${add(29, 39)}");
 
 }
 
@@ -38,4 +45,21 @@ double CalculateArea(double length, double width){
   print(Area);
   return Area;
 
+}
+// without parameter
+sayhello(){
+  print("hello world");
+}
+// with single parameter
+GeetUser(String Name){
+  print('Hello $Name');
+}
+
+void createBankAccountI(String name, String Nid, String Phone){
+  print("$name your acc no : 13334525 ");
+}
+
+int add(int num1, int num2){
+  int sum=num1+num2;
+  return sum;
 }
