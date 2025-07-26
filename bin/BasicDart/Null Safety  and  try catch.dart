@@ -10,6 +10,7 @@ void main(){
   print(Name);
 age>=20? print('Able to Vote'): print('Still kid');// ? single question mark represent tarrnery operator
   print('Welcome to X ${Name ?? 'Guest'}');// ?? check Null and show defult value
+   print (Name?.length);
 
   // using late
 
