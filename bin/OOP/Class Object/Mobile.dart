@@ -1,8 +1,8 @@
 main(){
-  Mobile iphone=new  Mobile();
+  Mobile iphone=new  Mobile('Iphone 13',2020);
   iphone.brandName='I Phone';
-  iphone.modelName='I phone X';
-  iphone.year=2015;
+//  iphone.modelName='I phone X';
+ // iphone.year=2015;
 
  print(iphone.brandName);
  print(iphone.modelName);
@@ -17,6 +17,10 @@ class Mobile{
   String ? modelName;
   String ? brandName;
 
+  // constructor
+  Mobile(this.modelName, this.year){// Class name and Method Name Same hole tokon take Constructor bole
+    print('Mobile Object Createed ');
+  }
 
   Charging (){
     print("$modelName is Charging ");
